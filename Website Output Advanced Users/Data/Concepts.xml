@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultTargetConcepts>
+    <!-- saved from url=(0016)http://localhost -->
+    <ConceptEntry Term="Images">
+        <ConceptLink Title="Image Positioned Left" Link="/Content/D_Images/ImagePositionedLeft.htm#aanchor0" UsedConditions="" LocalConditions="" />
+        <ConceptLink Title="Image Positioned Right" Link="/Content/D_Images/ImagePositionedRight.htm#aanchor1" UsedConditions="" LocalConditions="" />
+        <ConceptLink Title="Images" Link="/Content/D_Images/Images.htm#aanchor2" UsedConditions="" LocalConditions="" />
+        <ConceptLink Title="Image Within List" Link="/Content/D_Images/ImageWithinList.htm#aanchor3" UsedConditions="" LocalConditions="" />
+        <ConceptLink Title="Thumbnail Image" Link="/Content/D_Images/ThumbnailImage.htm#aanchor4" UsedConditions="" LocalConditions="" />
+    </ConceptEntry>
+</CatapultTargetConcepts>
