@@ -7,7 +7,7 @@ html, body {
 }
 
 h1, h2 {
-    color: #444444;
+	color: #444444;
 }
 
 input  {
@@ -27,7 +27,7 @@ input  {
 #top-right {
     font-size: 12px;
     font-weight: normal;
-    padding: 10px 0 0;
+    padding: 20px 0 0;
 }
 
 #top-right a {

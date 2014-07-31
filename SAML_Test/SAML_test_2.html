@@ -4,10 +4,12 @@
 
 <link href="resources/css/Styles_1.css" media="all" rel="stylesheet" type="text/css" />
 <link href="resources/css/Styles_2.css" media="all" rel="stylesheet" type="text/css" />
-
-
-
-<title>Custom Test for BlueJeans</title>
+<style type="text/css">
+body {
+	background-color: #FFFFFF;
+}
+</style>
+<title>Okta SSO Setup</title>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
  <script type="text/javascript" charset="utf-8">
 function processData(data) {
@@ -68,10 +70,14 @@ $(document).ready(function($) {
   }
 });
 </script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body>
 
 <div class="okta-instructions">
+<p>&nbsp;&nbsp;<img style="border: 0; padding: 0; padding-left: 5px;" src="images/design/Okta_logo.png" alt="Okta" /> </p>
+<h1>&nbsp;&nbsp;&nbsp;Configuring SAML 2.0 in BlueJeans</h1>
+
 <div id="loginAdminApp" class="okta-callout okta-danger" style="display: none;">
 <p><strong>Please sign-in to the Okta Admin app to have your organization specific variables generated for you. You might not be able to complete the setup without these generated variables.</strong></p>
 </div>
@@ -80,7 +86,7 @@ $(document).ready(function($) {
 <li>Select the&nbsp;<strong style="font-size: 14px;">Admin</strong>&nbsp;tab, and then the&nbsp;<strong style="font-size: 14px;">Security</strong>&nbsp;tab, as shown at the bottom of this page.</li>
 <li>Click the <strong>SAML Single Sign On</strong> button.</li>
 <li>
-<p>Download the following&nbsp;<strong>Certificate.&nbsp;</strong>&nbsp;Add it to the <strong>Certificate Path</strong> in Blue Jeans by selecting <strong>Browse</strong> and uploading it..</p>
+<p>Download the following&nbsp;<strong>Certificate.&nbsp;</strong>&nbsp;Add it to the <strong>Certificate Path</strong> in Blue Jeans by selecting <strong>Browse</strong> and uploading it.</p>
 <kbd class="entry" id="downloadCertificate">Sign in to the Okta Admin app to generate this variable.</kbd></li>
 <li>
 <p>Enter the following text for the <strong>Login URL</strong>.</p>
@@ -92,11 +98,13 @@ $(document).ready(function($) {
 <p>Modify the following text for the <strong>Logout URL</strong>, where &lt;company name&gt; is the name of your company.</p>
 <kbd><span>https://&lt;company name&gt;.bluejeans.com</span></kbd></li>
 <li>Fill in the <strong>User ID</strong> and<strong> Email</strong>&nbsp;fields with the correct information for your organization.<br /><br /><strong>Note:</strong> If the User ID field is not visible, <strong>uncheck</strong> <em>Pick User ID from &lt;saml2:NameID&gt; element</em>. This box is checked in the screenshot below.</li>
-<li>Copy the information in the <strong>RelayState</strong> field in BlueJeans. In Okta, paste this information into the <strong>Default Relay State</strong> field, as shown below.<br /><img style="border: 0; padding: 0;" src="images/bluejeans3.jpg" alt="bluejeans3.jpg" /></li>
+<li>Copy the information in the <strong>RelayState</strong> field in BlueJeans. In Okta, paste this information into the <strong>Default Relay State</strong> field, as shown below.<br /><img style="border: 0; padding: 0;" src="images/apps/bluejeans3.jpg" alt="bluejeans3.jpg" /></li>
 <li>
 <p>Click <strong>Save Changes</strong>.</p>
 </li>
 <li>Done!</li>
-</ol><img style="border: 0; padding: 0;" src="images/bluejeans8.png" alt="BlueJeans Admin Console" /></div>
+</ol><img style="border: 0; padding: 20px;" src="images/apps/bluejeans8.png" alt="BlueJeans Admin Console" />
+<p><strong>Comments? </strong>Please send any comments on these instructions to <a href="mailto:DedicatedSAMLComplaintLine@okta.com">DedicatedSAMLComplaintLine@okta.com</a>.</p>
+</div>
 </body>
 </html>

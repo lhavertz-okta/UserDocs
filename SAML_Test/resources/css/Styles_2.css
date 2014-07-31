@@ -1,7 +1,9 @@
+html {margin-left:4px}
+
 #top-right  
 {
 color: #FFFFFF;
-padding-left: 10px;
+padding-left: 20px;
 padding-bottom: 5px;
 }
 
@@ -17,4 +19,14 @@ background-repeat: no-repeat;
 background-position: 100% .4em;
 padding-right: .6em;
 margin: 2em 0;
+}.entry kbd {
+    background: #F8F8F8;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(160, 160, 160, 0.1) inset;
+    display: block;
+    padding: 9px 19px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    margin-top: 0;
 }
