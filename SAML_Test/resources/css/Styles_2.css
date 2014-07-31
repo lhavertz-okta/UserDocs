@@ -1,0 +1,20 @@
+#top-right  
+{
+color: #FFFFFF;
+padding-left: 10px;
+padding-bottom: 5px;
+}
+
+#top-right a 
+{
+color: #0069aa;
+}
+
+li
+{
+background-image: url(arrow.gif);
+background-repeat: no-repeat;
+background-position: 100% .4em;
+padding-right: .6em;
+margin: 2em 0;
+}
