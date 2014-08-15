@@ -1,4 +1,3 @@
- <script type="text/javascript" charset="utf-8">
 function processData(data) {
   $('#signOnUrl').html(data["signOnUrl"]);
   $('#signOutUrl').html(data["signOutUrl"]);
@@ -56,4 +55,3 @@ $(document).ready(function($) {
     }
   }
 });
-</script>
