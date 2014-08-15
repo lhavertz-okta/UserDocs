@@ -66,25 +66,7 @@ text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
 
 
 
-ol  li:before {
-    content: counter(li);
-    counter-increment: li;
-    position: absolute;
-    top: -2px;
-    left: -2em;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    width: 1.7em;
-    height: 24px;
-    line-height: 24px;
-    color: #FFFFFF;
-    background: #6C9415;
-    text-align: center;
-    border-radius: 14px;
-    font-weight: normal;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
-}
+
 
 
 .okta-callout {
