@@ -1,0 +1,33 @@
+<div class="okta-instructions">
+<div id="loginAdminApp" class="okta-callout okta-danger" style="display: none;">
+<p><strong>This setup might fail without parameter values that are customized for your organization. Please use the Okta Administrator Dashboard to add an application and view the values that are specific for your organization.</strong></p>
+</div>
+<h2>The following information is needed for configuring Echosign</h2>
+<ol>
+<li>
+<p>Go to your Echosign <strong>Account</strong> page, then under <strong>Account Settings</strong>, find the <strong>SAML settings</strong> section.</p>
+</li>
+<li>
+<p>For <strong>SAML Mode</strong>, choose either <strong>SAML Allowed</strong> or <strong>SAML Mandatory</strong>.</p>
+<p>If you choose <strong>SAML Mandatory</strong>, you will still be able to login with an admin account at: <a href="http://www.echosign.com" target="_blank">http://www.echosign.com</a>.</p>
+</li>
+<li>
+<p>Check the box for <strong>User Creation</strong>&nbsp;to create new users automatically when someone signs in with SAML.</p>
+</li>
+<li>
+<p>For the <strong>IdP Entity ID</strong>, enter:</p>
+<kbd id="issuer">Sign in to the Okta Admin app to generate this variable.</kbd></li>
+<li>
+<p>For the <strong>IdP Login URL</strong>, enter:</p>
+<kbd id="signOnUrl">Sign in to the Okta Admin app to&nbsp;<span>generate this variable.</span></kbd></li>
+<li>
+<p>For the <strong>IdP Logout URL</strong>, enter:</p>
+<kbd id="signOutUrl">Sign in to the Okta Admin app to&nbsp;<span>generate this variable.</span></kbd></li>
+<li>
+<p>For the <strong>IdP Certificate</strong>, copy and paste the following:</p>
+<pre id="x509CertTextPem">Sign in to the Okta Admin app to generate this variable.</pre>
+</li>
+<li>
+<p>Click the <strong>Save Changes</strong> button.</p>
+</li>
+</ol><img style="border: 0; padding: 0;" src="/attachments/token/gecpnd7otcuuqb7/?name=echosign-saml1.jpg" alt="echosign-saml1.jpg" /></div>
